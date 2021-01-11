@@ -59,32 +59,28 @@ plugins:
 author:
   name   : "Eric Chan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Graduate Data Analyst from University of Technology, now working at Schneider Electric"
+  bio    : "Graduate Data Analyst from University of Technology, now working at Schneider Electric."
+  location: "Sydney, Australia"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://eric-c-chan.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eric-c-chan/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/eric-c-chan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eric-c-chan/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/eric-c-chan"
 
 defaults:
   # _posts
