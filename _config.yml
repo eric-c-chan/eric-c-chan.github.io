@@ -22,6 +22,8 @@ twitter_username: username
 github_username: eric-c-chan
 minimal_mistakes_skin: "dark"
 search: true
+url: "https://eric-c-chan.github.io"
+repository: "eric-c-chan/eric-c-chan.giothub.io"
 
 # Build settings
 markdown: kramdown
@@ -30,7 +32,10 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Sydney # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+locale: en-GB
+
+logo: "/assets/images/Logo_200x200.png"
 
 include:
   - _pages
@@ -72,7 +77,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/eric-c-chan"
 
-
 footer:
   links:
     - label: "LinkedIn"
@@ -101,6 +105,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
 
 category_archive:
   type: liquid
