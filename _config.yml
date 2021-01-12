@@ -35,7 +35,7 @@ paginate_path: /page:num/
 timezone: Australia/Sydney # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 locale: en-GB
 
-logo: "/assets/images/Logo_200x200.png"
+logo: "/assets/images/favicon.png"
 
 include:
   - _pages
