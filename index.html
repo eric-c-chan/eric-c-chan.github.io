@@ -1,14 +1,39 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+title: "Portofolio & Blog"
+layout: splash
 header:
-   overlay_image: /assets/images/header-image.jpg
-   show_overlay_excerpt: false
-   tagline: "My portfolio & blog"
-   overlay_filter: 0.5
-   caption: "Hakone, Kanagawa, Japan | Photo credit: Eric Chan"
-title: "Portfolio & Blog"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header-image.jpg
+  actions:
+    - label: "About me"
+      url: "/about/"
+  caption: "Hakone, Kanagawa, Japan | Photo credit: Eric Chan"
+excerpt: "Graduate Data Analyst"
+intro:
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+feature_row:
+  - image_path: assets/images/resume-image.jpg
+    alt: "resume image"
+    title: "Resume"
+    excerpt: "Find a copy of my current resume using the link below."
+    url: "/assets/files/pdf/Resume - Eric Chan.pdf"
+    btn_label: "Download"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/blog-image.jpg
+    alt: "blog image"
+    title: "Blog"
+    excerpt: "A blog of my learning progress, hobbies, food, travel and goals."
+    url: "/blog/index.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/attic-image.jpg
+    title: "The Attic"
+    excerpt: "A collection of useful websites I have found useful and maybe to others as well."
+    url: "/attic/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
