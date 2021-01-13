@@ -61,7 +61,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-pdf-embed
 
 author:
   name   : "Eric Chan"
